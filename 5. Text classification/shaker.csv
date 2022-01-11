@@ -1,0 +1,7 @@
+model_name,preprocessing_methods,accuracy
+logistic regression with bag of words,none,0.7765918292234082
+logistic regression with bag of words and data cleaning,"remove_urls, remove_mentions, remove_dup_cahrs, replace_numbers, remove_emojis, lemmatize, diacritic_removal",0.784320942215679
+logistic regression with TF-IDF and data cleaning,"remove_urls, remove_mentions, remove_dup_cahrs, replace_numbers, remove_stop_words, remove_emojis, lemmatize, diacritic_removal, remove_duplicate_tweets",0.7887375782112624
+RandomForestClassifier with TF-IDF and data cleaning,"remove_urls, remove_mentions, remove_dup_cahrs, replace_numbers, remove_stop_words, remove_emojis, lemmatize, diacritic_removal, remove_duplicate_tweets",0.777695988222304
+Custom model,"remove_urls, remove_mentions, remove_dup_cahrs, replace_numbers, remove_stop_words, remove_emojis, lemmatize, diacritic_removal, remove_duplicate_tweets",0.8041958212852478
+with all classes,"remove_urls, remove_mentions, remove_dup_cahrs, replace_numbers, remove_stop_words, remove_emojis, lemmatize, diacritic_removal, remove_duplicate_tweets",0.5943893366398016
